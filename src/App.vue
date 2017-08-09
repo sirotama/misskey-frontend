@@ -32,10 +32,12 @@ body {
 
 .header {
   border-bottom: 1px solid #b3b3b3;
+  width: 100%;
   padding: 30px 50px;
 }
 
 .page {
+  width: 100%;
   padding: 30px 50px;
 }
 
