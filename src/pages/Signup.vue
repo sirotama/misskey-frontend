@@ -8,6 +8,7 @@
     
     <p />
     <button v-on:click="register">登録</button>
+
   </div>
 </template>
 
@@ -24,8 +25,10 @@ export default {
   },
   methods: {
     register: function() {
-      console.log(screenName)
-      console.log(password)
+      console.log(this.screenName)
+      console.log(this.password)
+
+      account.create(this.screenName, this.password)
     }
   }
 }

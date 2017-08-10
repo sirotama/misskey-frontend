@@ -16,7 +16,7 @@ export default class accounts {
         } )
     }
     static create(screenName, password){
-        call_post('accounts/create', null,
+        this.call_post('account/create', null,
             {
                 'screen-name': screenName,
                 'password': password
